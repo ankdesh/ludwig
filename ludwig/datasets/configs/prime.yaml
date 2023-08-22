@@ -1,9 +1,12 @@
 version: 1.0
 name: prime
-kaggle_competition: house-prices-advanced-regression-techniques
-archive_filenames: house-prices-advanced-regression-techniques.zip
+
+download_urls:
+  - /home/ankdesh/explore/ludwig/try/prime
+
 train_filenames: test_prime.csv
-test_filenames: test_prime.csv
+#test_filenames: test_prime.csv
+
 description: PRIME dataset 
 
 columns:
