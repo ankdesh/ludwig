@@ -1,0 +1,16 @@
+version: 1.0
+name: prime
+kaggle_competition: house-prices-advanced-regression-techniques
+archive_filenames: house-prices-advanced-regression-techniques.zip
+train_filenames: test_prime.csv
+test_filenames: test_prime.csv
+description: PRIME dataset 
+
+columns:
+  - name: area
+    type: number
+output_features:
+  - name: runtime
+    type: number
+
+loader: prime.PRIMELoader
