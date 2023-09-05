@@ -4,13 +4,31 @@ name: prime
 download_urls:
   - /home/ankdesh/explore/ludwig/try/prime
 
-train_filenames: test_prime.csv
+train_filenames: MobilenetEdgeTPU_feasible_runtime.csv
 #test_filenames: test_prime.csv
 
 description: PRIME dataset 
 
 columns:
-  - name: area
+  - name: param_1
+    type: number
+  - name: param_10
+    type: number
+  - name: paRam_2
+    type: number
+  - name: param_3
+    type: number
+  - name: param_4
+    type: number
+  - name: param_5
+    type: number
+  - name: param_6
+    type: number
+  - name: param_7
+    type: number
+  - name: param_8
+    type: number
+  - name: param_9
     type: number
 output_features:
   - name: runtime
